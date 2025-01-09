@@ -9,6 +9,9 @@ CELERY_RUN_PROCESSES = True
 CELERY_WORKER_COMMAND = 'celery -A tasks worker --loglevel=info'
 CELERY_BEAT_COMMAND = 'celery -A tasks beat --loglevel=info'
 
+GITHUB_OWNER = "streamlit"
+GITHUB_REPO = "streamlit"
+
 STATS_DB_URL = 'sqlite:///stats_database.sqlite'
 STATS_TABLE_NAME = 'github_stats'
 

@@ -88,5 +88,3 @@ def _stop_process(command: str) -> None:
 def _is_process_running(command: str) -> bool:
     pids = _find_process_pids(command)
     return len(pids) > 0
-
-

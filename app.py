@@ -55,4 +55,3 @@ with st.sidebar:
             with st.spinner("Stopping Celery..."):
                 time.sleep(1)
             st.experimental_rerun()
-
